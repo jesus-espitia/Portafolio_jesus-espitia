@@ -1,0 +1,66 @@
+body {
+    font-family: 'Noto Sans Kawi', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+    
+    
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+    
+nav li {
+    margin-right: 10px;
+}
+
+nav ul li a:hover{
+    color: rgb(113, 168, 223);
+}
+    
+nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1em;
+    }
+    
+    section {
+      margin-bottom: 2em;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #0077b5;
+  }
+  
+  h2{
+      color: #0077b5;
+  }
+  
+  h3{
+      color: #0077b5;
+  }
+  
+    
+    p {
+      line-height: 1.5;
+    }
