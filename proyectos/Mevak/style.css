@@ -1,0 +1,185 @@
+* {
+    cursor: url(animaciones/himm.png), auto ;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Color Emoji', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #683098;
+    box-shadow: 0 5px 29px 2px black;
+    z-index: 2;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.heder-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu{
+    height: 80px;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu nav{
+    height: 100%;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu nav a {
+    text-decoration: none ;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu nav ul li a{
+    color: black;
+    font-size: 18px;
+    transition: color 300ms;
+    margin-bottom: 30px;
+    font-family: 'Parisienne', cursive;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu nav ul li a:hover{
+    color: pink;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.menu .text-menu-selected{
+    color: pink;
+}
+
+section {
+    padding: 40px;  
+}
+
+#introduccion {
+    background: #975dde;
+    margin-top: 40px;
+}
+
+#razones {
+    background: #a66ade;  
+    display: flex;
+}
+
+#razones ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.cuadricula {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;  
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.logo h1{
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.logo-primario {
+    margin-left: 20px;
+    display: flex;
+    font-family: 'Parisienne', cursive;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.te-amo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.te-amo-mucho {
+    font-family: 'Parisienne', cursive;
+}
+
+.gatos{
+    width: 370px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.gatos img {
+    border-radius: 20px;
+    margin-bottom: 90px;
+    box-shadow: 0 5px 29px 2px black;
+}
+
+.texto-amor {
+    font-family: 'Nova Square', sans-serif;
+}
+
+#galeria {
+    background-color: #b97eef;
+}
+
+.cuadricula img{
+    border-radius: 25px;
+    box-shadow: 2px 2px 7px black;
+}
+
+.video-amor video{
+    display: flex;
+    margin: 9px;
+    margin-left: 125px;
+    margin-top: 50px;
+    border-radius: 40px;
+    box-shadow: 2px 10px 12px black;
+    cursor: url(animaciones/bts.png), auto;
+}
+
+.mevak {
+    margin: 20px;
+    text-align: center;
+}
